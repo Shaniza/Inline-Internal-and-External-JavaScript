@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A demonstration of inline, internal and external use of JavaScript </title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!-- inline javaScript -->
+    <h1>Inline JavaScript Example</h1>
+    <button onclick="console.log('inline javaScript message'); 
+                 alert('inline javaScript');" id="button">
+      Click Me
+    </button>
+    
+    <!-- Internal JavaScript -->
+    <h1>Internal JavaScript Example</h1>
+    <p>Internal JavaScript will be executed when browser is refreshed</p>
+    
+
+    <h1>External JavaScript Example</h1>
+    <button id="myButton">Click Me</button>
+    
+
+    <script>
+        alert("Internal JavaScript Execution Completed");
+        console.log(" Internal JavaScript Execution Success");
+    </script>
+
+    <script src="script.js" defer></script>
+</body>
+</html>

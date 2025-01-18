@@ -1,0 +1,13 @@
+#button, #myButton{
+    background-color: rgb(46, 167, 46);
+    border: 1px solid black;
+    height: 30px;
+    width: 100px;
+    font-weight: bold;
+    color: aliceblue;
+    
+}
+img{
+    width: 200px;
+    height: 200px;
+}
